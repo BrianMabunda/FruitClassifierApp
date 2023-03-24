@@ -54,10 +54,10 @@ export default function App() {
     <Provider store={store}>
 
     <SafeAreaView style={styles.container}>
-      {/* {(state===0)?<Initialize />:(state===1)?<MainScreen />:(state===2)?<ModelInfo />:(state===4)?<StatusCreate />:<Initialize />} */}
+      {(state===0)?<Initialize />:(state===1)?<MainScreen />:(state===2)?<ModelInfo />:(state===4)?<StatusCreate />:<Initialize />}
       {/* <MainScreen /> */}
       {/* <ModelInfo /> */}
-      <StatusCreate />
+      {/* <StatusCreate /> */}
       
        {/* <Picture /> */}
       

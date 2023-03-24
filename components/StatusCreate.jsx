@@ -5,7 +5,7 @@ import {  Camera,
 import store from '../reducers/store';
 import * as ImagePicker from 'expo-image-picker';
 let ip;
-// ip="192.168.43.16"
+// ip="10.2.33.22"
 ip="localhost"
 
 
@@ -26,7 +26,7 @@ function StatusCreate(props) {
 
     const permisionFunction = async () => {
         // here is how you can get the camera permission
-        const cameraPermission = await Camera.requestPermissionsAsync();
+        const cameraPermission = await Camera.requestCameraPermissionsAsync();
     
         setCameraPermission(cameraPermission.status === 'granted');
     
