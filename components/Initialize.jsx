@@ -11,7 +11,7 @@ const vh=Dimensions.get('window').height
 const ip ="127.0.0.1";
 
 
-
+const n=1;
 
 function Initialize(props) {
      //console.log(Write("Hello"));
